@@ -1,0 +1,32 @@
+-- keymaps to remember
+
+-- gl to show diagnostics
+-- gd to go to function
+-- ctrl + v to have multiple cursors
+-- v in tree opens in split screen
+-- y$ copy from cursor to end of line same behavior Y copy to end of line
+-- y^ copy from cursor to beginning of line
+-- yw copy to start of the next word
+-- yiw copy the current word
+-- y% copy everything between [] {} ()
+-- iw for inner word
+-- i" or i' or i[ or i{ or i( for inside the second arguments
+-- f{a-z} puts the cursor on the letter of the second argument 
+-- F{a-z} puts the cursor on the letter of the second argument backwards
+-- t{a-z} puts the cursor before the letter of the second argument 
+-- T{a-z} puts the cursor before the letter of the second argument backwards
+-- / search forward
+-- ? search backwards
+-- for surround plugin for no space
+-- w for word(stops at spaces and "," and ".")
+-- W for Word (doesn't stops for nothing except space)
+-- p for paragraphe
+-- s for sentence
+-- ds delete surrounding
+-- cs change surrounding
+-- b == ) example yssb or yswb or ysWb ...
+-- B == } example yssB or yswB or ysWB ...
+-- r == ] example yssr or yswr or ysWr ...
+-- a == > example yssa or yswa or ysWa ...
+--[range]s/{pattern}/{string}/[flags] [count]
+--:telescope help_tags for research (creating plugins)
