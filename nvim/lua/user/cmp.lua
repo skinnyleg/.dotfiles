@@ -15,14 +15,15 @@ local check_backspace = function()
 	return col == 0 or vim.fn.getline("."):sub(col, col):match("%s")
 end
 
+
 local kind_icons = {
 	Text = "",
-	Method = "",
 	Function = "",
 	Constructor = "",
 	Field = "",
 	Variable = "",
 	Class = "",
+	Method = "",
 	Interface = "",
 	Module = "",
 	Property = "",
